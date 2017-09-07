@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="ssh://git@github.com/acm-uiuc/"  />
+
+	<default remote="origin" revision="master" />
+  
+	<project path="." name="gpu-cluster" />
+	<project path="." name="gpu-cluster-backend" />
+	<project path="gpu-cluster-frontend" name="gpu-cluster-frontend" />
+	<project path="gpu-cluster-images" name="gpu-cluster-images" />
+
+</manifest>
