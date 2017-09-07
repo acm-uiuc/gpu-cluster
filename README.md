@@ -28,7 +28,9 @@ Cluster management software.
 Make sure you have Node.js, Yarn and Go and Docker installed before starting 
 
 [Install Node](http://til.acm.illinois.edu/nodejs/install-nvm/)
+
 [Install Go](http://til.acm.illinois.edu/go/setting-up-go/)
+
 [Install Docker](https://docs.docker.com/compose/install/)
 
 
