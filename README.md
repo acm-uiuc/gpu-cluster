@@ -9,15 +9,15 @@ The GPU Cluster Project breaks down into a couple parts.
 
 ### Javascript 
 
-[GPU Cluster Frontend](https://acm-uiuc/gpu-cluster-frontend) - Frontend written in React, calls backend
+[GPU Cluster Frontend](https://github.com/acm-uiuc/gpu-cluster-frontend) - Frontend written in React, calls backend
 
 ### Go 
 
-[GPU Cluster Backend](https://acm-uiuc/gpu-cluster-backend) - Backend written in Go, recieves requests and creates containers
+[GPU Cluster Backend](https://github.com/acm-uiuc/gpu-cluster-backend) - Backend written in Go, recieves requests and creates containers
 
 ### Docker
 
-[GPU Cluster Images](https://acm-uiuc/gpu-cluster-images) - Standard Deep Learning Containers
+[GPU Cluster Images](https://github.com/acm-uiuc/gpu-cluster-images) - Standard Deep Learning Containers
 
 ### Slurm 
 
