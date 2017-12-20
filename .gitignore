@@ -1,5 +1,6 @@
 log/
 frontend/
 backend/
+images/
 node_modules/
 .repo/
