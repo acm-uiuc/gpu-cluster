@@ -1,3 +1,4 @@
+mkdir log 
 pip3 install -r backend/requirements.txt
 yarn --cwd frontend
 trap 'kill %1; kill %2;' SIGINT
