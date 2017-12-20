@@ -6,7 +6,7 @@
   
 	<project path="docs" name="gpu-cluster" />
 	<project path="." name="gpu-cluster-backend" />
-	<project path="gpu-cluster-frontend" name="gpu-cluster-frontend" />
-	<project path="gpu-cluster-images" name="gpu-cluster-images" />
+	<project path="frontend" name="gpu-cluster-frontend" />
+	<project path="images" name="gpu-cluster-images" />
 
 </manifest>
