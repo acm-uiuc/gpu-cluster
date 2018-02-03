@@ -13,7 +13,9 @@ The GPU Cluster Project breaks down into a couple parts.
 
 ### Python 
 
-[GPU Cluster Backend](https://github.com/acm-uiuc/gpu-cluster-backend) - Backend written in Go, recieves requests and creates containers
+[GPU Cluster Backend](https://github.com/acm-uiuc/gpu-cluster-backend) - Backend written in python, recieves requests and creates containers
+
+[nvdocker](https://github.com/acm-uiuc/nvdocker) - A python package to manage interfacing with GPU enabled containers
 
 ### [Nvidia] Docker
 
