@@ -8,5 +8,6 @@
 	<project path="backend" name="gpu-cluster-backend" />
 	<project path="frontend" name="gpu-cluster-frontend" />
 	<project path="images" name="gpu-cluster-images" />
+	<project path="nvdocker" name="nvdocker" />
 
 </manifest>
