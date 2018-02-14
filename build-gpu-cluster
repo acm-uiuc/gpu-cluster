@@ -1,0 +1,4 @@
+#!/bin/bash
+pip3 install -r service/requirements.txt
+yarn --cwd service/frontend
+npm run build --prefix service/frontend
