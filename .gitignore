@@ -1,6 +1,8 @@
 log/
 frontend/
 backend/
+service/
+nvdocker
 images/
 node_modules/
 .repo/
