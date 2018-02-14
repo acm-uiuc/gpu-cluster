@@ -68,5 +68,7 @@ There are a couple components of the GPU Cluster. To get all of them we use a to
 If you are going to work on the Docker images, make sure to have an NVIDIA Graphics Card and have NVIDIA Docker installed in addition to Docker.
 https://github.com/NVIDIA/nvidia-docker
 
+Deployed as a daemon using systemd and circus
+
 
 
