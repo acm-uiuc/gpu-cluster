@@ -5,8 +5,8 @@
 	<default remote="origin" revision="master" />
   
 	<project path="." name="gpu-cluster" />
-	<project path="backend" name="gpu-cluster-backend" />
-	<project path="frontend" name="gpu-cluster-frontend" />
+	<project path="service" name="gpu-cluster-backend" />
+	<project path="service/frontend" name="gpu-cluster-frontend" />
 	<project path="images" name="gpu-cluster-images" />
 
 </manifest>
