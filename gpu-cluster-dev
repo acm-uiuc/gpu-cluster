@@ -1,0 +1,5 @@
+mkdir -p log 
+pip3 install -r backend/requirements.txt
+yarn --cwd service/frontend
+npm run build --prefix service/frontend
+sudo python3 service/app.py  | tee log/backend.log | sed -e 's/^/[gpu-cluster] /' \
