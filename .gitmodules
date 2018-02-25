@@ -6,7 +6,3 @@
 	path = nvdocker
 	url = git@github.com:acm-uiuc/nvdocker
 	branch = master
-[submodule "service"]
-	path = service
-	url = git@github.com:acm-uiuc/gpu-cluster-backend
-	branch = master
