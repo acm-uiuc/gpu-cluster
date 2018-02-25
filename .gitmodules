@@ -1,0 +1,6 @@
+[submodule "nvdocker"]
+	path = nvdocker
+	url = git@github.com:acm-uiuc/nvdocker
+[submodule "service"]
+	path = service
+	url = git@github.com:acm-uiuc/gpu-cluster-backend

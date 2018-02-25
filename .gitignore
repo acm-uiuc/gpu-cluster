@@ -1,9 +1,6 @@
 log/
 frontend/
 backend/
-service/
-nvdocker
-images/
 node_modules/
 .repo/
 gpu_cluster_instances.db
