@@ -34,7 +34,13 @@ Make sure you have Node.js, Yarn and Go and Docker installed before starting
 [Install Docker](https://docs.docker.com/compose/install/)
 
 
-There are a couple components of the GPU Cluster. To get all of them we use a tool called repo 
+There are a couple components of the GPU Cluster. To get all of the source run:
+
+```
+git clone --recursive git@github.com:acm-uiuc/gpu-cluster
+````
+
+You can also use repo if you like that better
 
 1. Install repo - https://android.googlesource.com/tools/repo/
 
