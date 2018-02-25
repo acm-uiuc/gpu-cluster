@@ -1,9 +1,16 @@
 [submodule "images"]
 	path = images
 	url = git@github.com:acm-uiuc/gpu-cluster-images
+	branch = master
 [submodule "nvdocker"]
 	path = nvdocker
 	url = git@github.com:acm-uiuc/nvdocker
+	branch = master
 [submodule "service"]
 	path = service
 	url = git@github.com:acm-uiuc/gpu-cluster-backend
+	branch = master
+[submodule "frontend"]
+	path = service/frontend
+	url = git@github.com:acm-uiuc/gpu-cluster-frontend
+	branch = master
