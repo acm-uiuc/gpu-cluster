@@ -1,3 +1,6 @@
+[submodule "images"]
+	path = images
+	url = git@github.com:acm-uiuc/gpu-cluster-images
 [submodule "nvdocker"]
 	path = nvdocker
 	url = git@github.com:acm-uiuc/nvdocker
