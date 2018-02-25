@@ -10,7 +10,3 @@
 	path = service
 	url = git@github.com:acm-uiuc/gpu-cluster-backend
 	branch = master
-[submodule "frontend"]
-	path = service/frontend
-	url = git@github.com:acm-uiuc/gpu-cluster-frontend
-	branch = master
