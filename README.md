@@ -27,12 +27,13 @@ Cluster management software.
 
 ## Getting Started
 
-Make sure you have Node.js, Yarn and Go and Docker installed before starting 
+Make sure you have Node.js, Yarn and Python and Docker installed before starting 
 
 [Install Node](http://til.acm.illinois.edu/nodejs/install-nvm/)
 
 [Install Docker](https://docs.docker.com/compose/install/)
 
+[Install nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
 
 There are a couple components of the GPU Cluster. To get all of the source run:
 
@@ -54,7 +55,7 @@ You can also use repo if you like that better
     sudo apt install repo
 
     ```
-2. Make a directory to house your GPU Cluster work, create this directory in your $GOPATH
+2. Make a directory to house your GPU Cluster work
     ```sh
     mkdir $GOPATH/src/github.com/acm-uiuc/gpu-cluster
     ```
@@ -73,6 +74,21 @@ You can also use repo if you like that better
 
 If you are going to work on the Docker images, make sure to have an NVIDIA Graphics Card and have NVIDIA Docker installed in addition to Docker.
 https://github.com/NVIDIA/nvidia-docker
+
+To start you can build the cluster with ```./build_gpu_cluster```. Then you can use ```./gpu_cluster``` to start the interface on port 4000. 
+
+If you want to install the cluster as a daemon, place the repo in ```/usr/local/gpu-cluster``` or change gpu_cluster.ini to reflect the location of the ```./gpu_cluster``` executable. 
+
+Then install circus with 
+```
+pip install circus
+```
+Then create a systemd service following these instructions and pointing to ```gpu_cluster.ini```
+
+> http://circus.readthedocs.io/en/latest/for-ops/deployment/
+
+
+
 
 Deployed as a daemon using systemd and circus
 
